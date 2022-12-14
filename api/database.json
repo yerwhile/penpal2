@@ -1,0 +1,81 @@
+{
+  "requests": [
+    {
+      "author": "Roger Mexico",
+      "letter": "test",
+      "authorEmail": "rm@pynchon.com",
+      "recipient": "Rachel Owlglass",
+      "recipientEmail": "ro@pynchon.com",
+      "date": "Wed Dec 14 2022 08:57:42 GMT-0600 (Central Standard Time)",
+      "id": 1
+    }
+  ],
+  "authors": [
+    {
+      "id": 1,
+      "name": "Benny Profane",
+      "email": "bp@pynchon.com"
+    },
+    {
+      "id": 2,
+      "name": "Rachel Owlglass",
+      "email": "ro@pynchon.com"
+    },
+    {
+      "id": 3,
+      "name": "Roger Mexico",
+      "email": "rm@pynchon.com"
+    }
+  ],
+  "recipients": [
+    {
+      "id": 1,
+      "name": "Benny Profane",
+      "email": "bp@pynchon.com"
+    },
+    {
+      "id": 2,
+      "name": "Rachel Owlglass",
+      "email": "ro@pynchon.com"
+    },
+    {
+      "id": 3,
+      "name": "Roger Mexico",
+      "email": "rm@pynchon.com"
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "name": "Business"
+    },
+    {
+      "id": 2,
+      "name": "Friendly"
+    },
+    {
+      "id": 3,
+      "name": "Family"
+    },
+    {
+      "id": 4,
+      "name": "Congratulations"
+    },
+    {
+      "id": 5,
+      "name": "Condolences"
+    }
+  ],
+  "topicObjects": [
+    {
+      "requestId": 1,
+      "topicId": "4",
+      "id": 1
+    },
+    {
+      "requestId": 1,
+      "topicId": "3",
+      "id": 2
+    }
+  ]
+}
