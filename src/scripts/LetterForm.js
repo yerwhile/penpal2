@@ -40,10 +40,8 @@ export const LetterForm = () => {
             ${topics.map(
                 topic => {
                     return `
-                    <div>
                         <input type="checkbox" class="topics" value="${topic.id}" name="${topic.name}">
-                        <label for="${topic.name}">${topic.name}</label>
-                    </div>`
+                        <label for="${topic.name}">${topic.name}</label>`
                 }
             ).join("")}
     </div>
