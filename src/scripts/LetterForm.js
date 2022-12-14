@@ -45,7 +45,7 @@ export const LetterForm = () => {
                         <label for="${topic.name}">${topic.name}</label>
                     </div>`
                 }
-            )}
+            ).join("")}
     </div>
     <div class="field">
         <label class="label" for="letterRecipient">Recipient</label>
